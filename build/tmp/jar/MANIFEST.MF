@@ -1,0 +1,120 @@
+Manifest-Version: 1.0
+Main-Class: org.traccar.Main
+Implementation-Version: 5.8
+Class-Path: lib/ical4j-3.2.11.jar lib/jxls-poi-2.12.0.jar lib/poi-ooxml-
+ 4.1.2.jar lib/poi-4.1.2.jar lib/aws-java-sdk-sns-1.12.477.jar lib/aws-j
+ ava-sdk-sqs-1.12.477.jar lib/aws-java-sdk-core-1.12.477.jar lib/firebas
+ e-admin-9.1.1.jar lib/google-cloud-firestore-3.7.0.jar lib/google-api-c
+ lient-gson-2.0.0.jar lib/google-cloud-storage-2.14.0.jar lib/google-api
+ -client-2.0.0.jar lib/google-auth-library-oauth2-http-1.12.1.jar lib/go
+ ogle-oauth-client-1.34.1.jar lib/google-http-client-gson-1.42.2.jar lib
+ /google-http-client-apache-v2-1.42.2.jar lib/google-http-client-1.42.2.
+ jar lib/httpclient-4.5.13.jar lib/commons-codec-1.15.jar lib/h2-2.1.214
+ .jar lib/mysql-connector-j-8.0.33.jar lib/mariadb-java-client-3.1.4.jar
+  lib/postgresql-42.6.0.jar lib/mssql-jdbc-12.2.0.jre11.jar lib/HikariCP
+ -5.0.1.jar lib/netty-all-4.1.93.Final.jar lib/slf4j-jdk14-2.0.7.jar lib
+ /guice-servlet-6.0.0.jar lib/guice-bridge-2.6.1.jar lib/guice-6.0.0.jar
+  lib/encoder-1.2.3.jar lib/jakarta.json-1.1.6.jar lib/websocket-jetty-s
+ erver-10.0.15.jar lib/jetty-annotations-10.0.15.jar lib/jetty-plus-10.0
+ .15.jar lib/jetty-webapp-10.0.15.jar lib/websocket-servlet-10.0.15.jar 
+ lib/jetty-servlet-10.0.15.jar lib/jetty-security-10.0.15.jar lib/websoc
+ ket-core-server-10.0.15.jar lib/jetty-server-10.0.15.jar lib/jetty-serv
+ lets-10.0.15.jar lib/jetty-jndi-10.0.15.jar lib/jetty-proxy-10.0.15.jar
+  lib/jersey-container-servlet-2.39.1.jar lib/jersey-media-json-jackson-
+ 2.39.1.jar lib/jersey-hk2-2.39.1.jar lib/jackson-datatype-jsr353-2.14.1
+ .jar lib/jackson-module-jaxb-annotations-2.14.1.jar lib/jackson-jaxrs-b
+ ase-2.14.1.jar lib/jmespath-java-1.12.477.jar lib/jackson-dataformat-cb
+ or-2.14.1.jar lib/jackson-databind-2.14.1.jar lib/jackson-annotations-2
+ .14.1.jar lib/jackson-core-2.14.1.jar lib/jackson-jaxrs-json-provider-2
+ .14.1.jar lib/liquibase-core-4.22.0.jar lib/jakarta.mail-1.6.7.jar lib/
+ jxls-2.12.0.jar lib/commons-jexl3-3.3.jar lib/velocity-tools-generic-3.
+ 1.jar lib/velocity-engine-core-2.3.jar lib/opencsv-5.7.1.jar lib/common
+ s-collections4-4.4.jar lib/spatial4j-0.8.jar lib/jts-core-1.19.0.jar li
+ b/waffle-jna-3.2.0.jar lib/jna-platform-5.13.0.jar lib/jnr-posix-3.1.16
+ .jar lib/protobuf-java-3.23.2.jar lib/activation-1.1.1.jar lib/kafka-cl
+ ients-3.4.0.jar lib/hivemq-mqtt-client-1.3.1.jar lib/jedis-4.4.1.jar li
+ b/oauth2-oidc-sdk-10.9.1.jar lib/amqp-client-5.18.0.jar lib/proto-googl
+ e-cloud-firestore-bundle-v1-3.7.0.jar lib/api-common-2.2.1.jar lib/open
+ census-contrib-http-util-0.31.1.jar lib/guava-31.1-jre.jar lib/caffeine
+ -2.9.3.jar lib/proto-google-cloud-firestore-v1-3.7.0.jar lib/checker-qu
+ al-3.31.0.jar lib/jetty-client-10.0.15.jar lib/websocket-jetty-common-1
+ 0.0.15.jar lib/websocket-core-common-10.0.15.jar lib/jetty-http-10.0.15
+ .jar lib/jetty-alpn-client-10.0.15.jar lib/jetty-io-10.0.15.jar lib/jet
+ ty-xml-10.0.15.jar lib/jetty-util-10.0.15.jar lib/jcl-over-slf4j-1.7.36
+ .jar lib/slf4j-api-2.0.7.jar lib/netty-codec-http-4.1.93.Final.jar lib/
+ netty-resolver-dns-native-macos-4.1.93.Final-osx-x86_64.jar lib/netty-r
+ esolver-dns-native-macos-4.1.93.Final-osx-aarch_64.jar lib/netty-resolv
+ er-dns-classes-macos-4.1.93.Final.jar lib/netty-resolver-dns-4.1.93.Fin
+ al.jar lib/netty-handler-4.1.93.Final.jar lib/netty-codec-dns-4.1.93.Fi
+ nal.jar lib/netty-codec-4.1.93.Final.jar lib/netty-transport-native-epo
+ ll-4.1.93.Final-linux-x86_64.jar lib/netty-transport-native-epoll-4.1.9
+ 3.Final-linux-aarch_64.jar lib/netty-transport-native-kqueue-4.1.93.Fin
+ al-osx-x86_64.jar lib/netty-transport-native-kqueue-4.1.93.Final-osx-aa
+ rch_64.jar lib/netty-transport-classes-epoll-4.1.93.Final.jar lib/netty
+ -transport-classes-kqueue-4.1.93.Final.jar lib/netty-transport-native-u
+ nix-common-4.1.93.Final.jar lib/netty-transport-4.1.93.Final.jar lib/ne
+ tty-buffer-4.1.93.Final.jar lib/netty-codec-haproxy-4.1.93.Final.jar li
+ b/netty-codec-http2-4.1.93.Final.jar lib/netty-codec-memcache-4.1.93.Fi
+ nal.jar lib/netty-codec-mqtt-4.1.93.Final.jar lib/netty-codec-redis-4.1
+ .93.Final.jar lib/netty-codec-smtp-4.1.93.Final.jar lib/netty-codec-soc
+ ks-4.1.93.Final.jar lib/netty-codec-stomp-4.1.93.Final.jar lib/netty-co
+ dec-xml-4.1.93.Final.jar lib/netty-resolver-4.1.93.Final.jar lib/netty-
+ common-4.1.93.Final.jar lib/netty-handler-proxy-4.1.93.Final.jar lib/ne
+ tty-handler-ssl-ocsp-4.1.93.Final.jar lib/netty-transport-rxtx-4.1.93.F
+ inal.jar lib/netty-transport-sctp-4.1.93.Final.jar lib/netty-transport-
+ udt-4.1.93.Final.jar lib/dagger-2.27.jar lib/javax.inject-1.jar lib/jak
+ arta.inject-api-2.0.1.jar lib/aopalliance-1.0.jar lib/jetty-servlet-api
+ -4.0.6.jar lib/websocket-jetty-api-10.0.15.jar lib/jersey-container-ser
+ vlet-core-2.39.1.jar lib/jersey-server-2.39.1.jar lib/jersey-client-2.3
+ 9.1.jar lib/jersey-common-2.39.1.jar lib/jersey-entity-filtering-2.39.1
+ .jar lib/jakarta.ws.rs-api-2.1.6.jar lib/hk2-locator-2.6.1.jar lib/java
+ ssist-3.29.0-GA.jar lib/hk2-api-2.6.1.jar lib/hk2-utils-2.6.1.jar lib/j
+ akarta.inject-2.6.1.jar lib/javax.json-api-1.1.4.jar lib/commons-text-1
+ .10.0.jar lib/commons-lang3-3.12.0.jar lib/snakeyaml-2.0.jar lib/jaxb-a
+ pi-2.3.1.jar lib/javax.activation-api-1.2.0.jar lib/jakarta.activation-
+ 1.2.1.jar lib/commons-digester3-3.2.jar lib/everit-json-schema-1.14.1.j
+ ar lib/commons-validator-1.7.jar lib/commons-beanutils-1.9.4.jar lib/co
+ mmons-logging-1.2.jar lib/logback-core-1.2.10.jar lib/commons-compress-
+ 1.21.jar lib/json-simple-3.0.2.jar lib/cache-api-1.1.1.jar lib/threeten
+ -extra-1.7.0.jar lib/jparsec-3.1.jar lib/groovy-dateutil-3.0.10.jar lib
+ /groovy-3.0.10.jar lib/jna-5.13.0.jar lib/jnr-ffi-2.2.13.jar lib/jnr-co
+ nstants-0.10.4.jar lib/zstd-jni-1.5.2-1.jar lib/lz4-java-1.8.0.jar lib/
+ snappy-java-1.1.8.4.jar lib/jctools-core-2.1.2.jar lib/annotations-16.0
+ .3.jar lib/rxjava-2.2.21.jar lib/reactive-streams-1.0.4.jar lib/commons
+ -pool2-2.11.1.jar lib/json-20230227.jar lib/gson-2.10.1.jar lib/nimbus-
+ jose-jwt-9.30.2.jar lib/jcip-annotations-1.0-1.jar lib/content-type-2.2
+ .jar lib/json-smart-2.4.10.jar lib/lang-tag-1.7.jar lib/jakarta.annotat
+ ion-api-1.3.5.jar lib/asm-commons-9.5.jar lib/asm-util-9.2.jar lib/acce
+ ssors-smart-2.4.9.jar lib/asm-analysis-9.2.jar lib/asm-tree-9.5.jar lib
+ /asm-9.5.jar lib/osgi-resource-locator-1.0.3.jar lib/jakarta.validation
+ -api-2.0.2.jar lib/jakarta.xml.bind-api-2.3.3.jar lib/jakarta.activatio
+ n-api-1.2.2.jar lib/aopalliance-repackaged-2.6.1.jar lib/commons-collec
+ tions-3.2.2.jar lib/commons-math3-3.6.1.jar lib/SparseBitSet-1.2.jar li
+ b/poi-ooxml-schemas-4.1.2.jar lib/curvesapi-1.06.jar lib/handy-uri-temp
+ lates-2.1.8.jar lib/re2j-1.6.jar lib/commons-digester-2.1.jar lib/jffi-
+ 1.3.10.jar lib/jffi-1.3.10-native.jar lib/jnr-a64asm-1.0.0.jar lib/jnr-
+ x86asm-1.0.2.jar lib/ion-java-1.0.2.jar lib/joda-time-2.10.2.jar lib/fa
+ ilureaccess-1.0.1.jar lib/listenablefuture-9999.0-empty-to-avoid-confli
+ ct-with-guava.jar lib/jsr305-3.0.2.jar lib/error_prone_annotations-2.16
+ .jar lib/j2objc-annotations-1.3.jar lib/httpcore-4.4.15.jar lib/opencen
+ sus-api-0.31.1.jar lib/javax.annotation-api-1.3.2.jar lib/auto-value-an
+ notations-1.10.jar lib/google-auth-library-credentials-1.12.1.jar lib/g
+ oogle-http-client-jackson2-1.42.2.jar lib/google-api-services-storage-v
+ 1-rev20220705-2.0.0.jar lib/google-cloud-core-2.8.22.jar lib/google-clo
+ ud-core-http-2.8.22.jar lib/google-http-client-appengine-1.42.2.jar lib
+ /gax-httpjson-0.104.4.jar lib/google-cloud-core-grpc-2.8.22.jar lib/grp
+ c-core-1.50.1.jar lib/annotations-4.1.1.4.jar lib/animal-sniffer-annota
+ tions-1.22.jar lib/gax-2.19.4.jar lib/gax-grpc-2.19.4.jar lib/grpc-alts
+ -1.50.1.jar lib/grpc-grpclb-1.50.1.jar lib/conscrypt-openjdk-uber-2.5.2
+ .jar lib/grpc-context-1.50.1.jar lib/proto-google-iam-v1-1.6.4.jar lib/
+ protobuf-java-util-3.21.8.jar lib/proto-google-common-protos-2.9.6.jar 
+ lib/threetenbp-1.6.3.jar lib/proto-google-cloud-storage-v2-2.14.0-alpha
+ .jar lib/grpc-google-cloud-storage-v2-2.14.0-alpha.jar lib/grpc-protobu
+ f-1.50.1.jar lib/gapic-google-cloud-storage-v2-2.14.0-alpha.jar lib/grp
+ c-api-1.50.1.jar lib/grpc-netty-shaded-1.50.1.jar lib/perfmark-api-0.25
+ .0.jar lib/grpc-auth-1.50.1.jar lib/grpc-stub-1.50.1.jar lib/grpc-googl
+ eapis-1.50.1.jar lib/grpc-xds-1.50.1.jar lib/opencensus-proto-0.2.0.jar
+  lib/grpc-services-1.50.1.jar lib/grpc-google-iam-v1-1.6.4.jar lib/grpc
+ -protobuf-lite-1.50.1.jar lib/opencensus-contrib-grpc-util-0.31.1.jar l
+ ib/jakarta.transaction-api-1.3.3.jar lib/xmlbeans-3.1.0.jar
+
