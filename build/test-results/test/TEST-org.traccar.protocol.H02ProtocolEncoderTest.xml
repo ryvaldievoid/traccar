@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.protocol.H02ProtocolEncoderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-08-17T16:26:29" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.019">
+  <properties/>
+  <testcase name="testAlarmDisarmEncode()" classname="org.traccar.protocol.H02ProtocolEncoderTest" time="0.003"/>
+  <testcase name="testPositionPeriodicEncode()" classname="org.traccar.protocol.H02ProtocolEncoderTest" time="0.003"/>
+  <testcase name="testEngineResumeEncode()" classname="org.traccar.protocol.H02ProtocolEncoderTest" time="0.005"/>
+  <testcase name="testAlarmArmEncode()" classname="org.traccar.protocol.H02ProtocolEncoderTest" time="0.002"/>
+  <testcase name="testEngineStopEncode()" classname="org.traccar.protocol.H02ProtocolEncoderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.protocol.At2000ProtocolDecoderTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-08-17T16:26:26" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.006">
+  <properties/>
+  <testcase name="testDecode()" classname="org.traccar.protocol.At2000ProtocolDecoderTest" time="0.006">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.helper.ObdDecoderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-17T16:26:23" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.01">
+  <properties/>
+  <testcase name="testDecodeCodes()" classname="org.traccar.helper.ObdDecoderTest" time="0.002"/>
+  <testcase name="testDecode()" classname="org.traccar.helper.ObdDecoderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.helper.BcdUtilTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-17T16:26:23" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.279">
+  <properties/>
+  <testcase name="testReadCoordinate()" classname="org.traccar.helper.BcdUtilTest" time="0.276"/>
+  <testcase name="testReadInteger()" classname="org.traccar.helper.BcdUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.helper.ChecksumTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-08-17T16:26:23" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.017">
+  <properties/>
+  <testcase name="testCrc16()" classname="org.traccar.helper.ChecksumTest" time="0.001"/>
+  <testcase name="testCrc8()" classname="org.traccar.helper.ChecksumTest" time="0.001"/>
+  <testcase name="testLuhn()" classname="org.traccar.helper.ChecksumTest" time="0.001"/>
+  <testcase name="testNmea()" classname="org.traccar.helper.ChecksumTest" time="0.002"/>
+  <testcase name="testModulo256()" classname="org.traccar.helper.ChecksumTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

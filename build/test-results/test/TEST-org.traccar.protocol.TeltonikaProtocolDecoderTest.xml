@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.traccar.protocol.TeltonikaProtocolDecoderTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2023-08-17T16:26:31" hostname="ryvaldie-ThinkPad-X1-Carbon-2nd" time="0.094">
+  <properties/>
+  <testcase name="testDecodeConnectionless()" classname="org.traccar.protocol.TeltonikaProtocolDecoderTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDecodePhoto()" classname="org.traccar.protocol.TeltonikaProtocolDecoderTest" time="0.065"/>
+  <testcase name="testDecode()" classname="org.traccar.protocol.TeltonikaProtocolDecoderTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
