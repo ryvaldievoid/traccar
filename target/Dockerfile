@@ -8,6 +8,6 @@ COPY schema/* ./schema/
 COPY lib/* /src/lib/
 ENV CLASSPATH=src/lib/*
 
-EXPOSE 5055
+EXPOSE 8082
 
 CMD ["java", "-jar", "tracker-server.jar"]
